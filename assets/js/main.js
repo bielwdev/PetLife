@@ -11,10 +11,10 @@ elementosDuvida.forEach(function (duvida) {
             
             // Verifica se a seta tem a classe 'active' para alternar a imagem
             if (arrow.classList.contains('active')) {
-                // Se a seta está ativa, troca a imagem para arrow-up
+                // Se a seta está ativa, troca a imagem para arrow-down
                 arrow.querySelector('img').src = 'assets/img/arrow-down.svg';
             } else {
-                // Se não, troca a imagem para arrow-down
+                // Se não, troca a imagem para arrow-up
                 arrow.querySelector('img').src = 'assets/img/arrow-up.svg';
             }
         }
