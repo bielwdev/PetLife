@@ -42,6 +42,11 @@ header nav a:hover{
     position: relative;
 }
 
+#startimg img{
+    width: 37rem;
+    height: 37rem;
+}
+
 h1, h2 {
     font-weight: 600;
     font-size: 2rem;
@@ -95,6 +100,11 @@ main p {
     margin: 0 0 1rem 2rem;
 }
 
+#clinicaimg img{
+    width: 30rem;
+    height: 30rem;
+}
+
 /* Seção farmácia */
 #farmacia {
     background-color: rgba(255, 152, 108, 0.25);
@@ -111,6 +121,10 @@ main p {
     margin: 0 auto;
 }
 
+#farmaciaimg img{
+    width: 40rem;
+    height: 27rem;
+}
 /* Seção dúvidas frequentes */
 #duvidas {
     display: flex;
@@ -154,6 +168,11 @@ main p {
     padding: 1.5rem;
     opacity: 1;
     height: fit-content;
+}
+
+#duvidasimg img{
+    width: 34rem;
+    height: 34rem;
 }
 
 /* Seção footer */
@@ -208,4 +227,11 @@ footer a:hover{
 
 #copyright a:hover{
     color: #FF725E;
+}
+
+/* Responsividade */
+@media screen and (max-width: 767px){
+    header{
+
+    }
 }
