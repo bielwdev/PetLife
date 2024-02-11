@@ -79,3 +79,14 @@ main p {
     width: 100%;
     z-index: -1;
 }
+
+#clinica{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem 5rem;
+}
+
+#clinica li {
+    margin: 0 0 1rem 2rem;
+}
