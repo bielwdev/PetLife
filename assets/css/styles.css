@@ -145,3 +145,57 @@ main p {
     margin-top: -1rem;
     padding: 1.5rem;
 }
+
+/* Seção footer */
+footer{
+    background-color: rgba(255, 152, 108, 0.25);
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 4rem 5rem;
+}
+
+footer img, footer strong {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    max-width: 22rem;
+}
+
+footer p a {
+    color: #FF725E;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+#copyright{
+    background-color: #263138;
+    text-align: center;
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+#copyright a {
+    color: #fff;
+    text-decoration: underline solid #FF725E 0.125rem;
+    text-underline-offset: 0.25rem;
+}
+
+#copyright a:hover{
+    color: #FF725E;
+}
