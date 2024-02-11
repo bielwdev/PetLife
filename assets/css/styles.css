@@ -90,3 +90,17 @@ main p {
 #clinica li {
     margin: 0 0 1rem 2rem;
 }
+
+#farmacia {
+    padding: 4rem 5rem;
+    text-align: center;
+}
+
+#farmacia img {
+    margin: 4rem auto;
+}
+
+#farmacia p {
+    max-width: 60rem;
+    margin: 0 auto;
+}
