@@ -64,3 +64,11 @@ main p {
     font-size: 1.25rem;
     padding: 1.25rem 2.25rem;
 }
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
