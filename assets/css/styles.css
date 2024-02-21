@@ -331,6 +331,7 @@ main p {
     margin-bottom: 10rem;
     z-index: -1;
     width: 100%;
+    overflow: hidden;
 }
 
 .duvida{
