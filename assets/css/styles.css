@@ -327,11 +327,8 @@ main p {
 }
 
 .absolute {
-    position: relative;
-    margin-bottom: 10rem;
-    z-index: -1;
-    width: 100%;
     overflow: hidden;
+    opacity: 0;
 }
 
 .duvida{
