@@ -237,12 +237,24 @@ footer a:hover{
 /* Responsividade */
 @media screen and (max-width: 767px){
     /* Seção inicio */
+
+#inicio, #clinica, #farmacia, footer{
+    width: 100%;
+    padding: 4rem 0;
+}
+
+/* Inicio */
 #inicio {
     display: inline;
     align-items: center;
     gap: 2rem;
     padding: 1.5rem 5rem 0rem 5rem;
     position: relative;
+    height: 100%;
+}
+
+#farmaciaimg{
+    margin: 0;
 }
 
 #clinica, #farmacia, #duvidas {
@@ -260,7 +272,7 @@ h1, h2 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     text-align: center;
-    max-width: 90%;
+    padding: 0rem .5rem 0rem .5rem;
 }
 
 main p {
@@ -284,7 +296,6 @@ main p {
     justify-content: center;
     margin: 2rem 0 1rem 1rem;
     margin-top: 2rem;
-    max-width: 80%;
 }
 
 .botao-transparente {
@@ -292,22 +303,44 @@ main p {
     color: #FF725E;
     border: solid #FF725E;
     border-radius: 0.5rem;
-    text-underline-offset: 0.25rem;
+    text-underline-offset: 0.5rem;
     align-items: center;
     justify-content: center;
-    text-align: center;
     display: flex;
-    margin: 2rem 0 -8rem 1rem;
-    margin-top: 2rem;
-    max-width: 80%;
+    width: 90%;
+    margin: 1rem;
 }
 
+/*Farmacia*/
+#farmacia{
+    display: block;
+    padding: 1rem 0rem;
+}
+
+#farmacia h2{
+    margin: 0rem;
+}
+
+
+#farmacia img {
+    margin: 0 auto;
+}
 
 .absolute {
     overflow: hidden;
     opacity: 0;
 }
-footer {
-    display: inline;
+
+.duvida{
+    margin: 1.25rem;
+}
+
+.duvida h3{
+    font-size: 1rem;
+}
+
+footer{
+    display: block;
+    padding: 1rem 1rem;
 }
 }
